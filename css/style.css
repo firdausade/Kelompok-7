@@ -1,0 +1,90 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  font-size: 16px;
+}
+.w3-half img {
+  margin-bottom: -6px;
+  margin-top: 16px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.w3-half img:hover {
+  opacity: 1;
+}
+#ddpt {
+  color: #006600;
+}
+#dbcg {
+  color: darkred;
+}
+#dcampak {
+  color: #66ffcc;
+}
+#dpolio {
+  color: #0066ff;
+}
+#linedpt {
+  color: #006600;
+}
+#linebcg {
+  color: darkred;
+}
+#linecampak {
+  color: #66ffcc;
+}
+#linepolio {
+  color: #0066ff;
+}
+/*css body */
+/*navbar , problem ml tidak berfunsi, js tidak berdfungsi buat scroll, */
+.navbar-nav {
+  padding-right: 150px;
+}
+.nav-item {
+  padding: right 20px;
+}
+
+@media screen and (max-width: 575px) {
+  #home {
+    margin: top 55px;
+  }
+}
+/* cerousel*/
+#myCarousel {
+  height: 100vh;
+}
+.carousel-item img {
+  height: 100vh;
+}
+
+/*section*/
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: grey;
+}
+#home {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#about,
+#gallery,
+#contact {
+  height: 700px;
+}
+/*scroll efek*/
+html {
+  scroll-behavior: smooth;
+}
+/*button*/
+.btn-primary-about {
+  background-color: red;
+}
+/*paralaxx acan*/
