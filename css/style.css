@@ -1,0 +1,88 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  font-size: 16px;
+}
+.w3-half img {
+  margin-bottom: -6px;
+  margin-top: 16px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.w3-half img:hover {
+  opacity: 1;
+}
+#ddpt {
+  color: #006600;
+}
+#dbcg {
+  color: darkred;
+}
+#dcampak {
+  color: #66ffcc;
+}
+#dpolio {
+  color: #0066ff;
+}
+#linedpt {
+  color: #006600;
+}
+#linebcg {
+  color: darkred;
+}
+#linecampak {
+  color: #66ffcc;
+}
+#linepolio {
+  color: #0066ff;
+}
+/*css body */
+table,
+th,
+td {
+  border: 1px solid black;
+}
+a {
+  border-right: 1px;
+}
+/*nav*/
+.navbar-nav {
+  padding-right: 50px;
+}
+.nav-item {
+  padding-right: 20px;
+}
+/*overriding*/
+.bg-light {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+.bg-nontrans {
+  background-color: rgba(255, 255, 255, 1) !important;
+}
+
+.courser-item img {
+  height: 100vh;
+}
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#home {
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+@media screen and (max-width: 575px) {
+  .bg-light {
+    background-color: rgba(255, 255, 255, 1) !important;
+  }
+  #home {
+    margin-top: 55px;
+  }
+}
